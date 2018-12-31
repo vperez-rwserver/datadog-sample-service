@@ -17,7 +17,7 @@ namespace DatadogSampleService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new SampleService()
             };
             ServiceBase.Run(ServicesToRun);
         }

@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace DatadogSampleService
 {
-    public partial class Service1 : ServiceBase
+    public partial class SampleService : ServiceBase
     {
-        public Service1()
+        public SampleService()
         {
             InitializeComponent();
         }
@@ -24,5 +24,6 @@ namespace DatadogSampleService
         protected override void OnStop()
         {
         }
+
     }
 }

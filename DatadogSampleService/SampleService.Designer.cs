@@ -1,6 +1,6 @@
 ﻿namespace DatadogSampleService
 {
-    partial class Service1
+    partial class SampleService
     {
         /// <summary> 
         /// Required designer variable.
